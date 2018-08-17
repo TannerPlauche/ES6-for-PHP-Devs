@@ -8,6 +8,9 @@ const person = {
 const first = person.first;
 const last = person.last;
 
+render(`LAST: ${first}`);
+render(`LAST: ${last}`);
+
 const tanner = {
     fName: 'Tanner',
     lName: 'Plauche',
@@ -15,12 +18,4 @@ const tanner = {
     city: 'Mount Juliet',
     twitter: '@thePhonetician'
 };
-const {
-    lName,
-    fName
-} = tanner;
 
-render('FIRST', first)
-render('LAST', last)
-render('fName', fName)
-render('lName', lName);
